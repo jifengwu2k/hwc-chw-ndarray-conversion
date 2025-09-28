@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hwc-chw-ndarray-conversion"
+version = "0.1.0a0"
+description = "Explicit, contiguous HWC <-> CHW ndarray conversion."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/hwc-chw-ndarray-conversion"
+"Bug Tracker" = "https://github.com/jifengwu2k/hwc-chw-ndarray-conversion/issues"
